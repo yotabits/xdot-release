@@ -1,0 +1,13 @@
+Source: ros-kinetic-xdot
+Section: misc
+Priority: extra
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xdot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, graphviz, python-wxgtk3.0
+Description: XDot.py, by Jose Fonseca, is an interactive viewer for graphs written in Graphviz's dot language.
+ This package adds front-end capabilities to XDot including WX Widget support and experimental Qt support and a mechanism for receiving callbacks when nodes are clicked. This extension is provided as BSD.

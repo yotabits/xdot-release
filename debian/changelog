@@ -1,0 +1,39 @@
+ros-kinetic-xdot (2.0.1-0xenial) xenial; urgency=high
+
+
+
+ -- Jonathan Bohren <jbo@jhu.edu>  Wed, 16 Apr 2014 15:00:00 -0000
+
+ros-kinetic-xdot (2.0.0-0xenial) xenial; urgency=high
+
+  * Removing garbage from package.xml
+  * Removing rosbuild support
+  * Contributors: Jonathan Bohren
+
+ -- Jonathan Bohren <jbo@jhu.edu>  Wed, 16 Apr 2014 15:00:00 -0000
+
+ros-kinetic-xdot (1.10.0-0xenial) xenial; urgency=high
+
+  * Merging experimental qt support, hybrid buildsystem
+  * updating version
+  * Catkinizing (hybrid), and adding experimental xdot support import
+  * Adding beginning of xdot qt conversion by Alex Bravo
+  * Moving this into a scripts dir
+  * removing empty space
+  * Making this into a unary stack
+  * modified dep type of catkin
+  * update setup() to use generate_distutils_setup
+  * updated to latest catkin
+  * updated cmake min version to 2.8.3
+  * updated catkin variables
+  * use install destination variables, removed manual installation of manifests
+  * removed obsolete catkin tag from manifest files
+  * added missing catkin tag to manifests
+  * converting rxtools, rxgraph, and rxbag to catkin/setup.py
+  * removing unused doxygen
+  * staging to new rx stack
+  * Contributors: Jonathan Bohren, dthomas, kwc
+
+ -- Jonathan Bohren <jbo@jhu.edu>  Thu, 27 Jun 2013 15:00:00 -0000
+
+
